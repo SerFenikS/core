@@ -4,22 +4,15 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 Exclamation symbols (:exclamation:) note something of importance e.g. breaking changes. Click them to learn more.
 
 ## [Unreleased]
-### Notes
 - [:ledger: View file changes][Unreleased]
+### Notes
 ### Added
 ### Changed
 ### Deprecated
 ### Removed
 ### Fixed
+- Correct SQL migration script for older versions of MySQL.
 ### Security
-
-## [0.64.0] - 2020-10-04
-### Notes
-- [:ledger: View file changes][0.64.0]
-### Added
-- Support for Guzzle 7. (@KristobalJunta) (#1133)
-### Fixed
-- Correct SQL migration script for older versions of MySQL. (#1135)
 
 ## [0.63.1] - 2020-06-24
 ### Notes
@@ -496,7 +489,6 @@ Exclamation symbols (:exclamation:) note something of importance e.g. breaking c
 [Tidelift]: https://tidelift.com/subscription/pkg/packagist-longman-telegram-bot?utm_source=packagist-longman-telegram-bot&utm_medium=referral&utm_campaign=changelog
 
 [Unreleased]: https://github.com/php-telegram-bot/core/compare/master...develop
-[0.64.0]: https://github.com/php-telegram-bot/core/compare/0.63.1...0.64.0
 [0.63.1]: https://github.com/php-telegram-bot/core/compare/0.63.0...0.63.1
 [0.63.0]: https://github.com/php-telegram-bot/core/compare/0.62.0...0.63.0
 [0.62.0]: https://github.com/php-telegram-bot/core/compare/0.61.1...0.62.0
